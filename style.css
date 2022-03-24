@@ -1,0 +1,132 @@
+.navbar li:hover{
+    background-color:#8A0B10;
+    
+}
+.navbar li:hover a{
+    color:#eeeeeb;
+    
+}
+ul li a{
+    font-size: 16px;
+    font-weight: 700;
+    
+    font-family:'Hind Siliguri', sans-serif;
+    text-transform:uppercase;
+    text-decoration: none; 
+    
+}
+.dropdown-menu{
+    width: 180px;
+    background-color: #009247;
+}
+.dropdown-menu li{
+    border-bottom: 2px solid white;
+    
+}
+.dropdown-menu li :last-child{
+    border-bottom: none;
+}
+.dropdown-menu:hover li{
+    background-color: tomato;
+}
+.social-area i{
+    font-size: 28px;
+    margin-right: 5px;
+}
+.social-area i:hover{
+    color:red;
+}
+.inner-content{
+    background-color: #EDECEC;
+    padding:20px;
+}
+.row h2,h3,h4, h5{
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 3rem;
+    font-family: 'Hind Siliguri', sans-serif;
+   
+}
+h6{
+    font-size:22px;
+    font-weight: 600px;
+    font-family: 'Hind Siliguri', sans-serif;
+    text-transform: uppercase;
+    
+}
+.row p{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 29px;
+    color:#42527B;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.right-content span{
+    color:#20BBA0;
+}
+.hyper-link{
+    text-decoration: none;
+    color:black;
+}
+.hyper-link:hover{
+    
+    color:white;
+}
+.btn-lg:hover{
+    background-color: tomato;
+}
+.left-content{
+    position:relative;
+}
+.left-content h2{
+    position:absolute;
+    top:50%;
+    left:0;
+    right:0;
+    margin:auto;
+}
+.Image{
+    position: relative;
+}
+.Image a{
+    position:absolute;
+    top:50%;
+    right:35%;
+    text-decoration: none;
+    padding:5px;
+    border-radius: 2px;
+    background-color: yellow;
+    opacity: 0;
+    transition:.3s;
+}
+.Image:hover{
+    transform:translate(5px) scale(1.2);
+}
+.Image a:hover{
+    opacity: 1;
+    background-color: turquoise;
+    color:white;
+}
+.img{
+    background-color: #FEEED6;
+}
+.inner-history{
+    background-color:#780A0E;
+    opacity:.8;
+}
+.btn a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.btn:hover{
+    background-color: #FFD200;
+}
+video{
+    border:20px solid turquoise;
+}
+.design i{
+    font-size: 38px;
+    
+}
